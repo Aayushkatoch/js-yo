@@ -26,5 +26,28 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 let getSomeNo= 50
 let stringGetSomeNo = String(getSomeNo)
-console.log(stringGetSomeNo);
-console.log(typeof stringGetSomeNo);
+//console.log(stringGetSomeNo);
+//console.log(typeof stringGetSomeNo);
+
+let number = 3
+let negNumber = -number
+console.log(negNumber); 
+
+
+// postfix increament
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n 
+
+//prefix increament
+let x = 3;
+const y = ++x;
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+// x2 is 4n; y2 is 4n
