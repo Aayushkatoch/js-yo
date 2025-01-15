@@ -35,13 +35,13 @@ console.log(negNumber);
 
 
 // postfix increament
-let x = 3;
-const y = x++;
-// x is 4; y is 3
+let a= 3;
+const b = a++;
+// a is 4; b is 3
 
-let x2 = 3n;
-const y2 = x2++;
-// x2 is 4n; y2 is 3n 
+let a2 = 3n;
+const b2 = a2++;
+// a2 is 4n; b2 is 3n 
 
 //prefix increament
 let x = 3;
